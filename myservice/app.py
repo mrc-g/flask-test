@@ -29,4 +29,4 @@ app.config["flask_profiler"] = {
 profiler = Profiler(app)
 
 if __name__ == '__main__':
-    app.run(host="127.0.0.1", port=5000) # pragma: no cover
+    app.run(host="127.0.0.1", port=5000)  # pragma: no cover
