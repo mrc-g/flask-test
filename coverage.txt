@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /home/marco/ASE/calcSkeleton
+plugins: cov-2.10.1
+collected 43 items
+
+myservice/tests/test_calc.py ....................                        [ 46%]
+myservice/tests/test_calculator.py ......................                [ 97%]
+myservice/tests/test_home.py .                                           [100%]
+
+----------- coverage: platform linux, python 3.8.5-final-0 -----------
+Name                                 Stmts   Miss  Cover
+--------------------------------------------------------
+myservice/__init__.py                    1      0   100%
+myservice/app.py                         6      0   100%
+myservice/calculator/__init__.py         0      0   100%
+myservice/calculator/calculator.py      38      0   100%
+myservice/tests/test_calc.py            86      0   100%
+myservice/tests/test_calculator.py      70      1    99%
+myservice/tests/test_home.py            10      0   100%
+myservice/views/__init__.py              3      0   100%
+myservice/views/calc.py                 51      1    98%
+myservice/views/home.py                  5      0   100%
+--------------------------------------------------------
+TOTAL                                  270      2    99%
+
+
+============================== 43 passed in 0.71s ==============================
